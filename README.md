@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![Framework](https://img.shields.io/badge/Framework-Flask%20%7C%20FastAPI-0ea5e9?style=flat-square)
 ![AI](https://img.shields.io/badge/AI-Groq%20Llama3--70B-9333ea?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Production--Ready-22c55e?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production--Render-22c55e?style=flat-square)
 
 > 🚀 A production-ready AI-powered analytics dashboard that extracts actionable insights from Amazon product reviews using advanced NLP and LLM reasoning.
 
@@ -61,7 +61,7 @@ Built with a dual-backend architecture, this project is designed for both users 
 ## 🚀 Live Demo
 
 🔗 Add your deployed link here  
-Example: https://your-app.onrender.com  
+Example: https://amazon-sentiment-analyzer.onrender.com/
 
 ## 📸 Screenshots
 
@@ -82,16 +82,16 @@ Example: https://your-app.onrender.com
 ## 📸 Live Application Screenshots
 
 ### 🏠 Home Interface
-![Home](screenshots/home.png)
+![Home](screenshots/live.png)
 
 ### 🔗 URL Input
-![Input](screenshots/input.png)
+![Input](screenshots/live_dashboard.png)
 
 ### 📊 Sentiment Analysis Output
-![Result](screenshots/result.png)
+![Result](screenshots/live_link.png)
 
 ### 🛍️ AI Verdict (Pros & Cons)
-![Verdict](screenshots/verdict.png)
+![Verdict](screenshots/live_review.png)
 
 
 ## ⚙️ Installation

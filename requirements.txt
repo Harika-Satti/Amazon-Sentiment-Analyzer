@@ -1,0 +1,12 @@
+flask
+requests
+fastapi
+uvicorn
+flask-cors
+groq
+python-dotenv
+requests
+jinja2
+beautifulsoup4
+lxml
+pydantic

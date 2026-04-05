@@ -65,6 +65,34 @@ Example: https://your-app.onrender.com
 
 ## 📸 Screenshots
 
+### 🏠 Home Dashboard
+![Home](screenshots/Dashborad.png)
+
+
+### 📊 Sentiment Result
+![Result](screenshots/review_a.png)
+
+![Result](screenshots/review_c.png)
+
+### 👍 Pros & 👎 Cons
+![Result](screenshots/review_b.png)
+
+![Result](screenshots/review_d.png)
+
+## 📸 Live Application Screenshots
+
+### 🏠 Home Interface
+![Home](screenshots/home.png)
+
+### 🔗 URL Input
+![Input](screenshots/input.png)
+
+### 📊 Sentiment Analysis Output
+![Result](screenshots/result.png)
+
+### 🛍️ AI Verdict (Pros & Cons)
+![Verdict](screenshots/verdict.png)
+
 
 ## ⚙️ Installation
 

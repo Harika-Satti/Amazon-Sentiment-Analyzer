@@ -1,82 +1,153 @@
-# 🛒 Amazon Sentiment & Review Analyzer (Pro)
+# 🛒 Amazon Sentiment & Review Analyzer 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/amazon-sentiment-pro?style=flat-square)
-![Core](https://img.shields.io/badge/Stack-Flask--FastAPI--Groq-6366f1?style=flat-square)
-![UI](https://img.shields.io/badge/UI-Advanced--Modern--Dashboard-18181b?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Harika-Satti/Amazon-Sentiment-Analyzer?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
+![Framework](https://img.shields.io/badge/Framework-Flask%20%7C%20FastAPI-0ea5e9?style=flat-square)
+![AI](https://img.shields.io/badge/AI-Groq%20Llama3--70B-9333ea?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production--Ready-22c55e?style=flat-square)
 
-An advanced, professional-grade dashboard for extracting real-time insights from Amazon reviews. Powered by **Groq Llama-3-70B**, this application performs deep sentiment analysis, pros/cons extraction, and provides a professional buying recommendation.
+> 🚀 A production-ready AI-powered analytics dashboard that extracts actionable insights from Amazon product reviews using advanced NLP and LLM reasoning.
 
----
+## ✨ Overview
 
-## 🌟 Key Features
+The **Amazon Sentiment Analyzer (Pro)** is a full-stack intelligent system that:
+- Scrapes real-time product reviews 📦  
+- Performs deep sentiment analysis 🧠  
+- Extracts structured insights (Pros / Cons)  
+- Generates a final buying recommendation  
 
-*   **⚡ Dual-Engine Architecture**: Support for both **Flask (SSR)** for quick browsing and **FastAPI** for high-performance API access.
-*   **🌐 Live Amazon Scraper**: Built-in scraper fetches top reviews directly from any Amazon product URL with automatic fallback logic.
-*   **🤖 Groq AI Engine**: Direct integration with Llama-3-70B for near-human level reasoning and sentiment detection.
-*   **🛍️ Intelligence Hub**: Extracts specific "Pros" and "Cons" and provides a "Verdict" (Buy Now/Avoid/Wait/Research).
-*   **🎨 Advanced UI**: Modern, premium dashboard using CSS-grid, glassmorphism, and a sleek sidebar navigation.
+Built with a dual-backend architecture, this project is designed for both users and developers.
 
----
+## 🔥 Core Highlights
 
-## 🛠️ Technology Stack
+### ⚡ Dual Backend Architecture
+- **Flask (SSR)** → Fast UI rendering  
+- **FastAPI** → High-performance API  
 
-- **Backend**: Python 3.10+, [Flask](https://flask.palletsprojects.com/) (SSR) & [FastAPI](https://fastapi.tiangolo.com/) (JSON API)
-- **AI Core**: [Groq Cloud](https://groq.com/) (Llama-3-70B-Versatile)
-- **Scraper**: [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) + Requests (LXML)
-- **UI/UX**: HTML5, Modern CSS (Space Grotesk typography)
+### 🤖 Advanced AI Engine
+- Powered by **Groq Llama-3-70B**
+- Context-aware sentiment detection  
+- Human-like reasoning  
 
----
+### 🌐 Real-Time Amazon Scraper
+- Live review extraction  
+- Fallback handling  
+- Clean preprocessing  
 
-## 🚀 Installation & Local Setup
+### 🛍️ Insight Engine
+- Sentiment classification  
+- Pros & Cons extraction  
+- Verdict generation:
+  - Buy Now  
+  - Avoid  
+  - Wait  
+  - Research  
 
-### 1. Prerequisites
-Ensure you have Python 3.10+ installed and a **Groq API Key** from the [Groq Console](https://console.groq.com/).
+### 🎨 Modern UI
+- Glassmorphism dashboard  
+- Responsive design  
+- Clean layout
+  
+## 🧰 Tech Stack
 
-### 2. Environment Configuration
-Create a `.env` file in the root directory:
-```bash
-GROQ_API_KEY=your_actual_key_here
-```
+| Category | Technologies |
+|----------|-------------|
+| Backend | Python, Flask, FastAPI |
+| AI | Groq (Llama-3-70B) |
+| Scraping | BeautifulSoup4, Requests |
+| Frontend | HTML, CSS |
+| Data | JSON, Text Processing |
 
-### 3. Choose your Engine
+## 🚀 Live Demo
 
-#### Option A: Run the Flask Web Dashboard
-Ideal for humans browsing the analytics.
-```bash
+🔗 Add your deployed link here  
+Example: https://your-app.onrender.com  
+
+## 📸 Screenshots
+
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+git clone https://github.com/Harika-Satti/Amazon-Sentiment-Analyzer.git
+cd Amazon-Sentiment-Analyzer
+
+##  2. Create Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+
+##  3. Install Requirements
+pip install -r requirements.txt
+
+## 4. Setup Environment Variables
+
+Create a .env file in the root directory:
+GROQ_API_KEY=your_api_key_here
+
+## ▶️ Run Application
+Flask App
 python app.py
-```
-Visit: **`http://127.0.0.1:5000`**
+Open: http://127.0.0.1:5000
 
-#### Option B: Run the FastAPI Backend
-Ideal for developers or automated tools.
-```bash
+FastAPI App
 python main.py
-```
-Docs: **`http://127.0.0.1:8000/docs`**
+Docs: http://127.0.0.1:8000/docs
 
----
+## 📊 Sample Output
+Product: Wireless Headphones
 
-## 📂 Project Roadmap
+Sentiment: Positive
+Pros:
+- Great sound quality
+- Long battery life
+Cons:
+- Expensive
+- Average mic
+Verdict: BUY NOW
 
-- [x] Initial Sentiment Logic (Streamlit)
-- [x] High-Performance API (FastAPI)
-- [x] Specialized Amazon AI Prompting
-- [x] Live Product Scraping
-- [x] Zero-JS SSR Migration
-- [x] Dual-Core Implementation (Flask + FastAPI)
-- [ ] Multiple Product Comparison
-- [ ] Export Sentiment Reports as PDF
+## 🧠 Architecture
+User Input (Amazon URL)
+        ↓
+Web Scraper
+        ↓
+Text Processing
+        ↓
+Groq LLM
+        ↓
+Insights (Pros/Cons/Verdict)
+        ↓
+UI Dashboard / API Response
 
----
+## 🛣️ Roadmap
+
+ Sentiment Analysis
+
+ FastAPI Integration
+
+ Live Scraping
+
+ Dual Backend
+
+ Multi-product comparison
+
+ Export reports (PDF)
+
+## 💼 Use Cases
+
+Smart product decision-making
+E-commerce analytics
+NLP/LLM applications
+Resume-ready AI project
 
 ## 🤝 Contributing
-Feel free to fork this project and submit pull requests for any features or bug fixes.
 
----
+Feel free to fork this project and submit pull requests.
 
 ## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
 
----
+MIT License
 
-### *Refined with ❤️ for professional open-source standards.*
+## 👩‍💻 Author
+Harika Satti
+Aspiring Data Scientist
+
